@@ -1,0 +1,155 @@
+
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: myFont;
+}
+
+.container{
+   
+    margin: auto;
+
+}
+
+#header{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    min-height: 200px;
+    position: relative;
+}
+
+#main{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+#footer{
+    width: 100%;
+    background-color: rgba(245, 222, 179, 0.715);
+    height: 120px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+ul{
+    position:absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+li{
+    list-style: none;
+    float: left;
+}
+
+li a{
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: lightcoral;
+}
+.card{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    background-color: rgb(148, 139, 139);
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 2px 2px 2px;
+    transition: 0.2s;
+}
+.card:hover{
+    box-shadow: 5px 8px 11px;
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius:25px;
+    border-top-right-radius: 25px;
+}
+
+.cardTitle{
+    text-align:centre;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.cardTitle{
+    margin: 5px;
+}
+
+
+
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #292727;
+    color: white;
+  }
+  
+
+
+  .title {
+    color: rgb(239, 226, 226);
+  }
+  
+  .button {
+    margin: 20px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 60%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  #item{
+    width: 50%;
+    height:50%;
+
+  }
